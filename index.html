@@ -14,14 +14,23 @@
 
 <body>
   <nav>
-    <img
-      src="https://media.istockphoto.com/id/1283674596/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B9%80%E0%B8%A7%E0%B8%81%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%81%E0%B8%A2%E0%B8%81%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%9A%E0%B8%99%E0%B8%9E%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B5%E0%B8%99%E0%B9%89%E0%B9%8D%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99-%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B9%E0%B8%99%E0%B9%81%E0%B8%9A%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%81.jpg?s=1024x1024&w=is&k=20&c=WeUEVB89AflvQOVXnKBbQ0uic8UEzX6NeNlppMyOS8Y="
-      alt="ABO">
-    <ul class="menu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <div class="container">
+      <div class="nav-wrapper">
+        <div class="logo">
+          <h3>ABO</h3>
+        </div>
+        <ul class="menu" id="myMenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="ham-menu" onclick="toggleHam(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </div>
   </nav>
   <div class="grid-container">
     <div class="grid-item hello">
@@ -46,9 +55,7 @@
     </div>
     <div class="grid-item image card">
       <a href="">
-        <img class="image1"
-          src="https://asianwiki.com/images/0/0f/Hyeri-1994-p1.jpg"
-          alt="">
+        <img class="image1" src="https://asianwiki.com/images/0/0f/Hyeri-1994-p1.jpg" alt="">
       </a>
     </div>
     <div class="grid-item card" id="projects">
@@ -56,9 +63,7 @@
         <h3>Kim Yoo-jung</h3>
         <p>Social media for poker players</p>
       </div>
-      <a href=""><img class="image2"
-          src=https://entertain.teenee.com/kpop/img6/244286.jpg
-          alt=""></a>
+      <a href=""><img class="image2" src=https://entertain.teenee.com/kpop/img6/244286.jpg alt=""></a>
     </div>
     <div class="grid-item card">
       <div class="absolute">
@@ -83,7 +88,8 @@
         <h3>Moon Ga-young</h3>
         <p>Project managemt app</p>
       </div>
-      <a href=""><img class="image5" src="https://truevisions.co.th/static/6f62ee61-823a-4f72-9480-9fef781cb2d3.png" alt=""></a>
+      <a href=""><img class="image5" src="https://truevisions.co.th/static/6f62ee61-823a-4f72-9480-9fef781cb2d3.png"
+          alt=""></a>
     </div>
     <div class="grid-item card">
       <div class="absolute">
@@ -104,7 +110,8 @@
     </div>
     <div class="grid-item wanttowork" id="contact">
       <h3>Want to worktogether?</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab, nostrum aperiam et nemo ea saepe assumenda totam nam facere?</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab, nostrum aperiam et nemo ea saepe assumenda
+        totam nam facere?</p>
       <div class="button">
         <button>Contact me</button>
         <div class="icon-container">
@@ -122,6 +129,7 @@
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
