@@ -20,6 +20,7 @@ body {
   cursor: pointer;
   position: absolute;
   right: 1rem;
+  
 }
 
 .bar1, .bar2, .bar3 {
@@ -53,7 +54,7 @@ body {
   background: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 0 1rem;
+  padding: 0 10rem;
   align-items: center;
   position: sticky;
   top: 0;
@@ -166,11 +167,14 @@ ul.menu li a {
 
 
 h3 {
-  margin: 0 0 0 5px;;
+  margin: 1 10px;
+  padding: 5px;
 }
 
 p {
-  margin: 0 0 0 5px;
+  margin: 1 10px;
+  padding: 5px;
+  line-height: 30px;
 }
 
 .icon-container {
@@ -299,6 +303,7 @@ img {
   border-radius: 30px;
 }
 
+
 @media screen and (max-width:1199px) {
   .grid-container {
     padding-left: 1px;
@@ -308,7 +313,10 @@ img {
     padding-left: 1px;
     padding-right: 1px;
   }
-
+  .nav-wrapper {
+    padding-left: 1px;
+    padding-right: 1px;
+  }
 }
 
 
