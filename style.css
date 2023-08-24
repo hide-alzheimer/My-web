@@ -56,14 +56,14 @@ body {
   justify-content: space-between;
   padding: 0 10rem;
   align-items: center;
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
   z-index: 2;
-  
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 
 }
+
 
 .menu {
   display: flex;
@@ -143,6 +143,7 @@ ul.menu li a {
   justify-content: space-between;
   background: #22ecf3;
   color: black;
+  margin-top: 5rem;
 
 }
 
@@ -160,20 +161,20 @@ ul.menu li a {
   position: relative;
   padding: 20px;
   color: black;
-  background: rgb(35, 205, 143);
+  background: rgb(246, 253, 140);
 
 
 }
 
 
 h3 {
-  margin: 1 10px;
+  margin: 20 10px;
   padding: 5px;
 }
 
 p {
-  margin: 1 10px;
-  padding: 5px;
+  margin: 1rem;
+  padding: 0 10px;
   line-height: 30px;
 }
 
@@ -201,6 +202,7 @@ p {
   height: 100%;
   object-fit: cover;
   transition: 2s;
+  margin-top: 5rem;
 
 }
 
@@ -331,6 +333,7 @@ img {
 
   .grid-item.hello {
     grid-column: span 12;
+    margin-top: 0;
   }
 
   .grid-item.wanttowork {
@@ -377,5 +380,16 @@ img {
   .menu-active {
     display: block !important;
   }
+
+  .image1 {
+    margin-top: 7rem;
+}
+.menu {
+  width: 100%;
+}
+.menu li {
+  margin: 1rem 0;
+  padding: 1rem 0.5rem;
+}
 
 }
